@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8608750257715283015
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4992265879626782990}
+  - component: {fileID: 4565683877057504475}
+  m_Layer: 0
+  m_Name: Interaxon Interfacer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4992265879626782990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608750257715283015}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4565683877057504475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8608750257715283015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 108dd45eb8282d949baa8c0e82c5cadc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  connected: 0
+  museList: 
+  userMuse: 
+  currentConnectionState: 0
+  previousConnectionState: 0
+  bluetoothMac: 
+  Accelerometer:
+    forward: 0
+    right: 0
+    down: 0
+  Gyro:
+    roll: 0
+    pitch: 0
+    yaw: 0
+  Battery:
+    level: 0
+    voltage: 0
+    temperature: 0
+  HeadbandFit:
+    fitTP9: 0
+    fitAF7: 0
+    fitAF8: 0
+    fitTP10: 0
+  Artifacts:
+    headbandOn: 0
+    blink: 0
+    jawClench: 0
+    timestamp: 0
+    bluetoothMac: 
+  calm: 0
+  focus: 0
+  flow: 0
+  EEG:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+    rightAux: 0
+    leftAux: 0
+  DRLRef:
+    DRL: 0
+    REF: 0
+  AlphaAbsolute:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  BetaAbsolute:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  DeltaAbsolute:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  ThetaAbsolute:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  GammaAbsolute:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  AlphaRelative:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  BetaRelative:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  DeltaRelative:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  ThetaRelative:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  GammaRelative:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  AlphaScore:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  BetaScore:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  DeltaScore:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  ThetaScore:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
+  GammaScore:
+    TP9: 0
+    AF7: 0
+    AF8: 0
+    TP10: 0
