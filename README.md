@@ -1,60 +1,56 @@
-# NeuroVR: EEG-Based VR Monitoring for Athletes
+# EEG-Driven Virtual Reality Interventions for Mental Health
 
-**NeuroVR** is an innovative system that integrates **EEG (Electroencephalogram) technology**, **Virtual Reality (VR)**, and **Artificial Intelligence (AI)** to monitor and enhance athletes' mental states during training. By providing real-time feedback, personalized insights, and immersive environments, NeuroVR helps athletes optimize their performance, manage stress, and achieve peak mental focus.
+**EEG-Driven Virtual Reality Interventions for Mental Health** is a cutting-edge project that integrates EEG (Electroencephalogram) technology, Virtual Reality (VR), and Generative AI to provide personalized mental health interventions. By offering adaptive VR scenarios and real-time analysis, this project aims to revolutionize mental health care for athletes, coaches, and general users.
 
 ---
 
 ## Key Features
 
-### **1. Real-Time Brainwave Monitoring**
-- Utilizes **EEG devices** ( Muse 2) to track brainwave activity (alpha, beta, theta, delta bands).
-- Detects mental states such as focus, calmness, and stress in real-time.
+### **1. Real-Time EEG Monitoring**
+- Tracks brainwave activity (alpha, beta, theta, delta bands).
+- Detects mental states such as focus, stress, and relaxation in real-time.
 
-### **2. Immersive VR Training**
-- Offers a **Unity-based VR environment** tailored to the athlete's sport.
-- Provides an engaging, distraction-free space for training and performance improvement.
+### **2. Adaptive VR Scenarios**
+- Immersive VR environments tailored for therapeutic interventions.
+- Adaptive feedback for personalized mental health support.
 
-### **3. AI-Driven Insights**
-- Processes EEG data using machine learning models to classify mental states.
-- Generates **detailed reports** with actionable feedback and long-term performance metrics.
+### **3. Generative AI Insights**
+- Processes EEG data using advanced AI models.
+- Generates detailed mental health reports and actionable feedback.
 
-### **4. Gamified Visualization**
-- Displays brainwave data and mental state feedback through a game-like interface in **Unity**.
-- Coaches and athletes can see real-time visual cues (e.g., rotating objects) for intuitive feedback.
-
-### **5. Personalized Feedback**
-- Provides suggestions for mental training exercises based on detected patterns.
-- Adapts to individual athletes, offering a tailored approach to mental resilience.
+### **4. Modular System Design**
+- Separate modules for athletes, coaches, and data analysis.
+- Easy to integrate and expand.
 
 ---
 
-## System Architecture
+## Folder Structure
 
-1. **Data Collection**: EEG devices capture brainwave signals during VR simulations.
-2. **Data Processing**: Signal processing algorithms filter noise and extract relevant features.
-3. **Visualization**: Brainwave metrics are displayed in real-time on the GUI.
-4. **Reporting**: AI models generate session-specific insights and long-term metrics.
+```
+Repository ->
+   Athlete VR Scenario       # Contains Unity scenes for athlete-focused VR interventions.
+   Coach GUI                 # Unity-based GUI for coaches to monitor and interact.
+   Signal and Gen AI Analysis# Python modules for signal processing and generative AI.
+   Unity - Python BackEnd    # Backend integration between Unity and Python.
+```
 
 ---
 
 ## Installation and Usage
 
 ### Prerequisites
-- **EEG Devices**: Compatible with  Muse 2 headset.
-- **VR Hardware**: A VR headset supporting Unity-based environments.
-- **Software Requirements**:
-  - Unity (Version 2022 or later)
-  - Python (for signal processing and AI models)
-  - Streamlit (for GUI and generative AI reports)
-  - Groq API
+- Unity (Version 2022 or later).
+- Python 3.8+.
+- VR hardware compatible with Unity.
+- EEG devices (e.g., Muse 2, Emotiv Epoch X).
 
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/shaunak/neurovr.git
-   cd neurovr
+   git clone https://github.com/username/repository-name.git
+   cd repository-name
    ```
-2. Install Python and Streamlit dependencies:
+2. Install Python dependencies:
    ```bash
    pip install -r requirements.txt
    ```
@@ -62,73 +58,61 @@
 
 ---
 
-## Unity Commands
+## Commands
 
-### **1. Athlete VR Adaptive Therapy**
-Run the **Dockstation Scene** in Unity for adaptive VR therapy scenarios:
-   - Open Unity Editor.
-   - Navigate to the `Scenes` folder.
-   - Select `Dockstation.unity` and click **Play**.
+### **For Unity**
 
-### **2. Coach GUI**
-Run the **Titlescene** in Unity for the coach interface:
-   - Open Unity Editor.
-   - Navigate to the `Scenes` folder.
-   - Select `Titlescene.unity` and click **Play**.
+1. **Athlete VR Adaptive Therapy**:
+   - Run the **Dockstation Scene** for adaptive therapy scenarios:
+     - Open Unity Editor.
+     - Navigate to the `Athlete VR Scenario` folder.
+     - Select `Dockstation.unity` and click **Play**.
 
----
+2. **Coach GUI**:
+   - Run the **Titlescene** for the coach interface:
+     - Open Unity Editor.
+     - Navigate to the `Coach GUI` folder.
+     - Select `Titlescene.unity` and click **Play**.
 
-## Generative AI Commands
+### **For Generative AI**
 
-### **1. Install Requirements**
-Ensure all dependencies for the Generative AI module are installed:
+1. **Install Requirements**:
    ```bash
    pip install -r requirements.txt
    ```
 
-### **2. Signal Processing Interface**
-Run the **signal processing module** via Streamlit:
-   ```bash
-   streamlit run signal_processing.py
-   ```
+2. **Signal Processing Interface**:
+   - Run the signal processing module:
+     ```bash
+     streamlit run signal_processing.py
+     ```
 
-### **3. Generative AI Reports**
-Launch the **Generative AI reporting module**:
-   ```bash
-   streamlit run genai.py
-   ```
+3. **Generative AI Reports**:
+   - Launch the Generative AI module:
+     ```bash
+     streamlit run genai.py
+     ```
 
 ---
 
 ## Applications
 
-- **Sports Training**: Optimize mental performance for athletes in individual and team sports.
-- **Mental Health Therapy**: Assist in stress management and resilience training.
-- **Research**: Provide neuroscientific insights for sports psychology and cognitive training.
+- **Athlete Training**: Improve mental resilience and focus.
+- **Mental Health Therapy**: Adaptive VR for relaxation and stress management.
+- **Research**: Advanced insights into EEG and VR applications.
 
 ---
 
-## Future Developments
+## Credits
 
-- **Wearable Integration**: Add biometric data (heart rate, sweat levels) for comprehensive profiling.
-- **Cloud Storage**: Enable data access and analytics from multiple locations.
-- **Multi-Sport Support**: Customize VR environments for diverse sports scenarios.
-- **Remote Training**: Facilitate virtual coaching with real-time feedback.
+This project was developed by **Team Dexians**:
 
----
-
-## Feedback and Contributions
-
-We value your feedback and invite contributions to improve NeuroVR. If you have suggestions, feature requests, or bug reports, please open an issue in this repository or contact us directly.
+1. **Sabari Kameswaran S**
+2. **Shaunak J**
+3. **Praveen S**
+4. **Mohesh T**
+5. **Ganesh R**
 
 ---
 
-
-
-## License
-
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
-
----
-
-### *Empowering athletes with technology to achieve their full potential.*
+### *Innovating mental health care with EEG and VR technology.*
