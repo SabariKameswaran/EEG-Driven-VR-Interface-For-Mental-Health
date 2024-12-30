@@ -67,7 +67,7 @@ Repository ->
      - Open Unity Editor.
      - Navigate to the `Athlete VR Scenario/Asset/Scenes` folder.
      - Select `Dockstation.unity` and click **Play**.
-![](https://github.com/SabariKameswaran/Team-Dexians-EEG-Driven-VR-Interface-0xDay-Hack-Day/Gifs/1.gif)
+![github](https://github.com/SabariKameswaran/Team-Dexians-EEG-Driven-VR-Interface-0xDay-Hack-Day/Gifs/1.gif)
 
 2. **Coach GUI**:
    - Run the **Titlescene** for the coach interface:
