@@ -1,4 +1,4 @@
-![1 final](https://github.com/user-attachments/assets/da7772fb-6824-4b56-a177-fe89e5eca1a9)# EEG-Driven Virtual Reality Interventions for Mental Health
+# EEG-Driven Virtual Reality Interventions for Mental Health
 
 **EEG-Driven Virtual Reality Interventions for Mental Health** is a cutting-edge project that integrates EEG (Electroencephalogram) technology, Virtual Reality (VR), and Generative AI to provide personalized mental health interventions. By offering adaptive VR scenarios and real-time analysis, this project aims to revolutionize mental health care for athletes, coaches, and general users.
 
@@ -67,7 +67,8 @@ Repository ->
      - Open Unity Editor.
      - Navigate to the `Athlete VR Scenario/Asset/Scenes` folder.
      - Select `Dockstation.unity` and click **Play**.
-      ![00](https://github.com/user-attachments/assets/fd750ac9-ccf1-4a75-a9ef-d37b91430d6f)
+   
+![00](https://github.com/user-attachments/assets/fd750ac9-ccf1-4a75-a9ef-d37b91430d6f)
 
 
 2. **Coach GUI**:
@@ -75,7 +76,8 @@ Repository ->
      - Open Unity Editor.
      - Navigate to the `Coach GUI/Asset/0xDay Demo` folder.
      - Select `Athlete GUI.unity` and click **Play**.
-   ![1 final](https://github.com/user-attachments/assets/25890eea-a4d6-45bc-94a5-097a2053aca2)
+
+![1 final](https://github.com/user-attachments/assets/25890eea-a4d6-45bc-94a5-097a2053aca2)
 
 
 ### **For Generative AI**
