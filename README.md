@@ -65,14 +65,14 @@ Repository ->
 1. **Athlete VR Adaptive Therapy**:
    - Run the **Dockstation Scene** for adaptive therapy scenarios:
      - Open Unity Editor.
-     - Navigate to the `Athlete VR Scenario` folder.
+     - Navigate to the `Athlete VR Scenario/Asset/Scenes` folder.
      - Select `Dockstation.unity` and click **Play**.
 
 2. **Coach GUI**:
    - Run the **Titlescene** for the coach interface:
      - Open Unity Editor.
-     - Navigate to the `Coach GUI` folder.
-     - Select `Titlescene.unity` and click **Play**.
+     - Navigate to the `Coach GUI/Asset/0xDay Demo` folder.
+     - Select `Athlete GUI.unity` and click **Play**.
 
 ### **For Generative AI**
 
