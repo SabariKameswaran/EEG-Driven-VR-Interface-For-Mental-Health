@@ -47,8 +47,8 @@ Repository ->
 ### Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/repository-name.git
-   cd repository-name
+   git clone https://github.com/SabariKameswaran/Team-Dexians-EEG-Driven-VR-Interface-0xDay-Hack-Day.git
+   cd Team-Dexians-EEG-Driven-VR-Interface-0xDay-Hack-Day
    ```
 2. Install Python dependencies:
    ```bash
